@@ -15,9 +15,6 @@
   },
   "keywords": [],
   "author": "harlanjun",
-  "publishConfig": {
-    "registry": "https://github.com/harlanjun/harlan-cli"
-  },
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
