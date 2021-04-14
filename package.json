@@ -1,0 +1,26 @@
+{
+  "name": "harlan-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "harlan": "bin/harlan",
+    "harlan-add": "bin/harlan-add",
+    "harlan-delete": "bin/harlan-delete",
+    "harlan-list": "bin/harlan-list",
+    "harlan-init": "bin/harlan-init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0"
+  }
+}
