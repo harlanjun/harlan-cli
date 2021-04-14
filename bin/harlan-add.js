@@ -4,11 +4,11 @@ const inquirer = require('inquirer')
 //修改控制台字符串的样式
 const chalk = require('chalk')
 // node内置文件模块
-const fs = require('fs')
 const path = require('path')
+
+const { writeFileInfo }  = require(path.join(__dirname, '../utils/file.js'))
 // 读取根目录下的template.json
 const tempPath = path.join(__dirname, '../template.json')
-const { writeFileInfo }  = require(path.join(__dirname, '../utils/file.js'))
 const tempInfo = require(tempPath)
 
 //自定义交互式命令行的问题和简单的校验

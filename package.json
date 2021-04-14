@@ -1,20 +1,23 @@
 {
   "name": "harlan-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "harlan first cli",
+  "main": "bin/harlan.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "harlan": "bin/harlan",
-    "harlan-add": "bin/harlan-add",
-    "harlan-delete": "bin/harlan-delete",
-    "harlan-list": "bin/harlan-list",
-    "harlan-init": "bin/harlan-init"
+    "harlan": "bin/harlan.js",
+    "harlan-add": "bin/harlan-add.js",
+    "harlan-delete": "bin/harlan-delete.js",
+    "harlan-list": "bin/harlan-list.js",
+    "harlan-init": "bin/harlan-init.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "harlanjun",
+  "publishConfig": {
+    "registry": "https://github.com/harlanjun/harlan-cli"
+  },
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
